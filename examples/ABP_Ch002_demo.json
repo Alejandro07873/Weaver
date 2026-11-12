@@ -1,0 +1,16 @@
+[
+  {
+    "Type": "ABP_Ch002_Demo_C",
+    "Name": "Default__ABP_Ch002_Demo_C",
+    "Properties": {
+      "AnimGraphNode_LocalToComponentSpace_0": {},
+      "AnimGraphNode_KawaiiPhysics_0": {
+        "RootBone": {"BoneName": "hair_root"},
+        "DummyBoneLength": 8,
+        "PhysicsSettings": {"Damping": 0.2, "Stiffness": 0.05},
+        "DampingCurve": {"ObjectName": "CurveFloat'CF_HairDamping'", "ObjectPath": "/Game/Curves/CF_HairDamping.0"}
+      },
+      "AnimGraphNode_ComponentToLocalSpace_0": {}
+    }
+  }
+]

@@ -1,0 +1,74 @@
+# Unreal editor classes
+
+These results record class loading in the UE 4.27 test project. MuscleEx, CopyBone and LocalToComponentSpace were also pasted into a test AnimGraph and compiled. Other rows record class availability only. ControlRig and Mirror were unavailable in this project.
+
+| Type | Editor class | Loaded |
+|---|---|---|
+| AimOffsetLookAt | `/Script/AnimGraph.AnimGraphNode_AimOffsetLookAt` | Yes |
+| AnimDynamics | `/Script/AnimGraph.AnimGraphNode_AnimDynamics` | Yes |
+| ApplyAdditive | `/Script/AnimGraph.AnimGraphNode_ApplyAdditive` | Yes |
+| ApplyLimits | `/Script/AnimGraph.AnimGraphNode_ApplyLimits` | Yes |
+| ApplyMeshSpaceAdditive | `/Script/AnimGraph.AnimGraphNode_ApplyMeshSpaceAdditive` | Yes |
+| BlendBoneByChannel | `/Script/AnimGraph.AnimGraphNode_BlendBoneByChannel` | Yes |
+| BlendListByBool | `/Script/AnimGraph.AnimGraphNode_BlendListByBool` | Yes |
+| BlendListByEnum | `/Script/AnimGraph.AnimGraphNode_BlendListByEnum` | Yes |
+| BlendListByInt | `/Script/AnimGraph.AnimGraphNode_BlendListByInt` | Yes |
+| BlendSpaceEvaluator | `/Script/AnimGraph.AnimGraphNode_BlendSpaceEvaluator` | Yes |
+| BlendSpacePlayer | `/Script/AnimGraph.AnimGraphNode_BlendSpacePlayer` | Yes |
+| BoneDrivenController | `/Script/AnimGraph.AnimGraphNode_BoneDrivenController` | Yes |
+| CCDIK | `/Script/AnimGraph.AnimGraphNode_CCDIK` | Yes |
+| ComponentToLocal | `/Script/AnimGraph.AnimGraphNode_ComponentToLocalSpace` | Yes |
+| ComponentToLocalSpace | `/Script/AnimGraph.AnimGraphNode_ComponentToLocalSpace` | Yes |
+| Constraint | `/Script/AnimGraph.AnimGraphNode_Constraint` | Yes |
+| ControlRig | `/Script/ControlRigDeveloper.AnimGraphNode_ControlRig` | Unavailable |
+| ConvertComponentToLocalSpace | `/Script/AnimGraph.AnimGraphNode_ComponentToLocalSpace` | Yes |
+| ConvertLocalToComponentSpace | `/Script/AnimGraph.AnimGraphNode_LocalToComponentSpace` | Yes |
+| CopyBone | `/Script/AnimGraph.AnimGraphNode_CopyBone` | Yes |
+| CopyBoneDelta | `/Script/AnimGraph.AnimGraphNode_CopyBoneDelta` | Yes |
+| CopyPoseFromMesh | `/Script/AnimGraph.AnimGraphNode_CopyPoseFromMesh` | Yes |
+| CurveSource | `/Script/AnimGraph.AnimGraphNode_CurveSource` | Yes |
+| Fabrik | `/Script/AnimGraph.AnimGraphNode_Fabrik` | Yes |
+| HandIKRetargeting | `/Script/AnimGraph.AnimGraphNode_HandIKRetargeting` | Yes |
+| IdentityPose | `/Script/AnimGraph.AnimGraphNode_IdentityPose` | Yes |
+| Inertialization | `/Script/AnimGraph.AnimGraphNode_Inertialization` | Yes |
+| KawaiiPhysics | `/Script/KawaiiPhysicsEd.AnimGraphNode_KawaiiPhysics` | Yes |
+| LayeredBoneBlend | `/Script/AnimGraph.AnimGraphNode_LayeredBoneBlend` | Yes |
+| LegIK | `/Script/AnimGraph.AnimGraphNode_LegIK` | Yes |
+| LinkedInputPose | `/Script/AnimGraph.AnimGraphNode_LinkedInputPose` | Yes |
+| LiveLinkPose | `/Script/LiveLinkGraphNode.AnimGraphNode_LiveLinkPose` | Yes |
+| LocalRefPose | `/Script/AnimGraph.AnimGraphNode_LocalRefPose` | Yes |
+| LocalToComponent | `/Script/AnimGraph.AnimGraphNode_LocalToComponentSpace` | Yes |
+| LocalToComponentSpace | `/Script/AnimGraph.AnimGraphNode_LocalToComponentSpace` | Yes |
+| LookAt | `/Script/AnimGraph.AnimGraphNode_LookAt` | Yes |
+| MakeDynamicAdditive | `/Script/AnimGraph.AnimGraphNode_MakeDynamicAdditive` | Yes |
+| MeshRefPose | `/Script/AnimGraph.AnimGraphNode_MeshRefPose` | Yes |
+| MeshSpaceRefPose | `/Script/AnimGraph.AnimGraphNode_MeshRefPose` | Yes |
+| Mirror | `/Script/AnimGraph.AnimGraphNode_Mirror` | Unavailable |
+| ModifyBone | `/Script/AnimGraph.AnimGraphNode_ModifyBone` | Yes |
+| ModifyCurve | `/Script/AnimGraph.AnimGraphNode_ModifyCurve` | Yes |
+| MultiWayBlend | `/Script/AnimGraph.AnimGraphNode_MultiWayBlend` | Yes |
+| MuscleEx | `/Script/MuscleExEditor.AnimGraphNode_MuscleEx` | Yes |
+| ObserveBone | `/Script/AnimGraph.AnimGraphNode_ObserveBone` | Yes |
+| PoseBlendNode | `/Script/AnimGraph.AnimGraphNode_PoseBlendNode` | Yes |
+| PoseByName | `/Script/AnimGraph.AnimGraphNode_PoseByName` | Yes |
+| PoseDriver | `/Script/AnimGraph.AnimGraphNode_PoseDriver` | Yes |
+| PoseSnapshot | `/Script/AnimGraph.AnimGraphNode_PoseSnapshot` | Yes |
+| RandomPlayer | `/Script/AnimGraph.AnimGraphNode_RandomPlayer` | Yes |
+| RefPose | `/Script/AnimGraph.AnimGraphNode_LocalRefPose` | Yes |
+| ResetRoot | `/Script/AnimGraph.AnimGraphNode_ResetRoot` | Yes |
+| RigidBody | `/Script/AnimGraph.AnimGraphNode_RigidBody` | Yes |
+| RotateRootBone | `/Script/AnimGraph.AnimGraphNode_RotateRootBone` | Yes |
+| RotationMultiplier | `/Script/AnimGraph.AnimGraphNode_RotationMultiplier` | Yes |
+| RotationOffsetBlendSpace | `/Script/AnimGraph.AnimGraphNode_RotationOffsetBlendSpace` | Yes |
+| ScaleChainLength | `/Script/AnimGraph.AnimGraphNode_ScaleChainLength` | Yes |
+| SequenceEvaluator | `/Script/AnimGraph.AnimGraphNode_SequenceEvaluator` | Yes |
+| SequencePlayer | `/Script/AnimGraph.AnimGraphNode_SequencePlayer` | Yes |
+| Slot | `/Script/AnimGraph.AnimGraphNode_Slot` | Yes |
+| SplineIK | `/Script/AnimGraph.AnimGraphNode_SplineIK` | Yes |
+| SpringBone | `/Script/AnimGraph.AnimGraphNode_SpringBone` | Yes |
+| SubInput | `/Script/AnimGraph.AnimGraphNode_LinkedInputPose` | Yes |
+| Trail | `/Script/AnimGraph.AnimGraphNode_Trail` | Yes |
+| TwistCorrectiveNode | `/Script/AnimGraph.AnimGraphNode_TwistCorrectiveNode` | Yes |
+| TwoBoneIK | `/Script/AnimGraph.AnimGraphNode_TwoBoneIK` | Yes |
+| TwoWayBlend | `/Script/AnimGraph.AnimGraphNode_TwoWayBlend` | Yes |
+| WheelHandler | `/Script/PhysXVehiclesEditor.AnimGraphNode_WheelHandler` | Yes |

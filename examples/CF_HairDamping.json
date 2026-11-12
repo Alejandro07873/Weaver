@@ -1,0 +1,10 @@
+[
+  {
+    "Type": "CurveFloat",
+    "Name": "CF_HairDamping",
+    "Properties": {"FloatCurve": {"Keys": [
+      {"Time": 0, "Value": 0.2},
+      {"Time": 1, "Value": 0.8}
+    ]}}
+  }
+]
