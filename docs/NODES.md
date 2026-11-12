@@ -1,6 +1,6 @@
 # Unreal editor classes
 
-These results record class loading in the UE 4.27 test project. MuscleEx, CopyBone and LocalToComponentSpace were also pasted into a test AnimGraph and compiled. Other rows record class availability only. ControlRig and Mirror were unavailable in this project.
+These results record class loading in the UE 4.27 test project. MuscleEx, KawaiiPhysics, CopyBone, LocalToComponentSpace and ComponentToLocalSpace were also pasted into a test AnimGraph and compiled. Other rows record class availability only. ControlRig and Mirror were unavailable in this project.
 
 | Type | Editor class | Loaded |
 |---|---|---|

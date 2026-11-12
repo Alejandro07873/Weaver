@@ -5,7 +5,7 @@
 
 **Choose the animation nodes you need from an FModel export and paste them into Unreal Editor.**
 
-[Download Weaver.exe for Windows](https://github.com/Alejandro07873/Weaver/releases/latest/download/Weaver.exe) · [Release notes](https://github.com/Alejandro07873/Weaver/releases/latest)
+[Download Weaver.exe for Windows](https://github.com/Alejandro07873/Weaver/releases/latest/download/Weaver.exe) · [Supported nodes](#supported-nodes) · [Release notes](https://github.com/Alejandro07873/Weaver/releases/latest)
 
 Windows x64 · English and Spanish · Light and dark themes
 </div>
@@ -24,9 +24,24 @@ Open **Merge & presets** to combine nodes from two ABPs or from text copied in U
 
 ![The merge workspace with a sample composition in dark mode](docs/media/merge.png)
 
-## 🦴 Physics nodes and curves
+## Supported nodes
 
-Weaver supports MuscleEx and KawaiiPhysics editor nodes. Enable their plugins in the destination project. Use **Curves** to assign an external curve, such as the [sample damping curve](examples/CF_HairDamping.json). The [UE 4.27 node catalog](docs/NODES.md) lists the classes checked in the test project.
+The table lists the editor classes that loaded in the Unreal Engine 4.27 test project. **MuscleEx, KawaiiPhysics, CopyBone, LocalToComponentSpace and ComponentToLocalSpace** were also pasted into test AnimGraphs and compiled successfully.
+
+| Category | Nodes |
+| --- | --- |
+| Physics and dynamics | MuscleEx, KawaiiPhysics, AnimDynamics, RigidBody, SpringBone, Trail, WheelHandler |
+| Bone controls | CopyBone, CopyBoneDelta, ModifyBone, BoneDrivenController, RotationMultiplier, RotateRootBone, TwistCorrectiveNode, ApplyLimits, Constraint, ObserveBone, ResetRoot, ScaleChainLength |
+| IK and aiming | TwoBoneIK, CCDIK, Fabrik, LegIK, SplineIK, HandIKRetargeting, LookAt, AimOffsetLookAt |
+| Animation playback | SequencePlayer, SequenceEvaluator, BlendSpacePlayer, BlendSpaceEvaluator, RandomPlayer, RotationOffsetBlendSpace, Slot |
+| Blending and additive poses | LayeredBoneBlend, TwoWayBlend, MultiWayBlend, BlendListByBool, BlendListByInt, BlendListByEnum, BlendBoneByChannel, ApplyAdditive, ApplyMeshSpaceAdditive, MakeDynamicAdditive, Inertialization |
+| Pose sources and drivers | CopyPoseFromMesh, PoseSnapshot, PoseByName, PoseBlendNode, PoseDriver, LinkedInputPose, LiveLinkPose, IdentityPose, LocalRefPose, MeshRefPose |
+| Space conversion | LocalToComponentSpace, ComponentToLocalSpace |
+| Curves | CurveSource, ModifyCurve |
+
+Enable the corresponding plugins for MuscleEx, KawaiiPhysics, LiveLinkPose and WheelHandler. ControlRig and Mirror were unavailable in the test project. The [full catalog](docs/NODES.md) includes editor class paths and alternative names found in FModel exports.
+
+For KawaiiPhysics, use **Curves** to assign an external curve, such as the [sample damping curve](examples/CF_HairDamping.json).
 
 ## 🔄 Updates
 
