@@ -39,7 +39,7 @@ The table lists the editor classes that loaded in the Unreal Engine 4.27 test pr
 | Space conversion | LocalToComponentSpace, ComponentToLocalSpace |
 | Curves | CurveSource, ModifyCurve |
 
-Enable the corresponding plugins for MuscleEx, KawaiiPhysics, LiveLinkPose and WheelHandler. ControlRig and Mirror were unavailable in the test project. The [full catalog](docs/NODES.md) includes editor class paths and alternative names found in FModel exports.
+Enable the corresponding plugins for MuscleEx, KawaiiPhysics, LiveLinkPose and WheelHandler.The [full catalog](docs/NODES.md) includes editor class paths and alternative names found in FModel exports.
 
 For KawaiiPhysics, use **Curves** to assign an external curve, such as the [sample damping curve](examples/CF_HairDamping.json).
 
