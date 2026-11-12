@@ -32,6 +32,4 @@ Weaver supports MuscleEx and KawaiiPhysics editor nodes. Enable their plugins in
 
 Weaver checks for stable releases when it opens. For a manual check, use **Files → Tools → Check for updates**. The Windows ZIP contains the same standalone executable as the direct download.
 
-## Inside Weaver
-
-Explore selected production code from the Windows app: the [Unreal project inspector](source-preview/weaver_project.py) checks referenced assets and enabled plugins, the [asset-reference helper](source-preview/weaver_serialization.py) translates FModel object paths, and the [release checker](source-preview/weaver_updates.py) looks for stable GitHub updates in the background.
+See the [version history](CHANGELOG.md) for release details or [report an issue](https://github.com/Alejandro07873/Weaver/issues/new?template=bug_report.md) if an export behaves unexpectedly.
